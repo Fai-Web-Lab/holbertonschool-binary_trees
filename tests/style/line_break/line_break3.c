@@ -6,7 +6,7 @@ int (*get_op_func(char *s))(int, int)
 
 	while (i < 5)
 	{
-		return (0);
+	return (0);
 	}
 	return (0);
 }
@@ -19,7 +19,7 @@ int (*get_op_func(char *s))(int, int)
 
 	while (i < 5)
 	{
-		return (0);
+	return (0);
 	}
 	return (0);
 }
@@ -32,7 +32,7 @@ int (*get_op_func(char *s))(int, int)
 
 	while (i < 5)
 	{
-		return (0);
+	return (0);
 	}
 	return (0);
 }

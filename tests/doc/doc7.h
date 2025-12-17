@@ -2,11 +2,11 @@
 #define _DOC6_H_
 
 /**
- * struct dog - A Dog structure
- *
- * @name: Name
- * @age: Test
- */
+	* struct dog - A Dog structure
+	*
+	* @name: Name
+	* @age: Test
+	*/
 struct dog
 {
 	char *name;
@@ -15,11 +15,11 @@ struct dog
 };
 
 /**
- * enum test - Test
- *
- * @SECOND: Second
- * @THIRD: Third
- */
+	* enum test - Test
+	*
+	* @SECOND: Second
+	* @THIRD: Third
+	*/
 enum test
 {
 	FIRST = 0,
@@ -28,10 +28,10 @@ enum test
 };
 
 /**
- * union color - Color
- *
- * @value: Value
- */
+	* union color - Color
+	*
+	* @value: Value
+	*/
 union color
 {
 	char rgba[4];
@@ -39,11 +39,11 @@ union color
 };
 
 /**
- * struct animal - Animal
- *
- * @name: The name
- * @color: color
- */
+	* struct animal - Animal
+	*
+	* @name: The name
+	* @color: color
+	*/
 typedef struct animal
 {
 	char *name;
@@ -52,11 +52,11 @@ typedef struct animal
 } t_animal;
 
 /**
- * enum test2 - Test
- *
- * @FIRST: First
- * @THIRD: Third
- */
+	* enum test2 - Test
+	*
+	* @FIRST: First
+	* @THIRD: Third
+	*/
 enum test2
 {
 	FIRST = 0,
@@ -65,10 +65,10 @@ enum test2
 };
 
 /**
- * union color2 - Color
- *
- * @rgba: RGBA
- */
+	* union color2 - Color
+	*
+	* @rgba: RGBA
+	*/
 typedef union color2
 {
 	char rgba[4];

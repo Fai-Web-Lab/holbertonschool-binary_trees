@@ -1,4 +1,4 @@
 int func0(void)
 {
-	return (1); 
+	return (1);
 }

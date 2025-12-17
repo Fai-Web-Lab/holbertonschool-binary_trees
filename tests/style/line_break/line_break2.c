@@ -1,10 +1,10 @@
 #include <stdio.h>
 
 /**
- * main - Entry point
- *
- * Return: Always 0 (Success)
- */
+	* main - Entry point
+	*
+	* Return: Always 0 (Success)
+	*/
 int main(void)
 {
 	printf("hello"); /* a =
@@ -19,8 +19,8 @@ int func(void)
 
 	if (i != 3)
 	{
-		_putchar('E'); _putchar('r'); _putchar('r'); _putchar('o');
-		_putchar('r'); _putchar('\n'); exit(98);
+	_putchar('E'); _putchar('r'); _putchar('r'); _putchar('o');
+	_putchar('r'); _putchar('\n'); exit(98);
 	}
 
 	return (0);

@@ -2,12 +2,12 @@
 #define _DOC6_H_
 
 /**
- * dog - A Dog structure
- *
- * @name: Name
- * @age: Test
- * @owner: The owner
- */
+	* dog - A Dog structure
+	*
+	* @name: Name
+	* @age: Test
+	* @owner: The owner
+	*/
 struct dog
 {
 	char *name;
@@ -16,12 +16,12 @@ struct dog
 };
 
 /**
- * test - Test
- *
- * @FIRST: First
- * @SECOND: Second
- * @THIRD: Third
- */
+	* test - Test
+	*
+	* @FIRST: First
+	* @SECOND: Second
+	* @THIRD: Third
+	*/
 enum test
 {
 	FIRST = 0,
@@ -30,11 +30,11 @@ enum test
 };
 
 /**
- * color - Color
- *
- * @rgba: RGBA
- * @value: Value
- */
+	* color - Color
+	*
+	* @rgba: RGBA
+	* @value: Value
+	*/
 union color
 {
 	char rgba[4];
@@ -42,12 +42,12 @@ union color
 };
 
 /**
- * animal - Animal
- *
- * @name: The name
- * @race: Race
- * @color: color
- */
+	* animal - Animal
+	*
+	* @name: The name
+	* @race: Race
+	* @color: color
+	*/
 typedef struct animal
 {
 	char *name;
@@ -56,12 +56,12 @@ typedef struct animal
 } t_animal;
 
 /**
- * test2 - Test
- *
- * @FIRST: First
- * @SECOND: Second
- * @THIRD: Third
- */
+	* test2 - Test
+	*
+	* @FIRST: First
+	* @SECOND: Second
+	* @THIRD: Third
+	*/
 typedef enum test2
 {
 	FIRST = 0,
@@ -70,11 +70,11 @@ typedef enum test2
 } e_test2;
 
 /**
- * color2 - Color
- *
- * @rgba: RGBA
- * @value: Value
- */
+	* color2 - Color
+	*
+	* @rgba: RGBA
+	* @value: Value
+	*/
 typedef union color2
 {
 	char rgba[4];
